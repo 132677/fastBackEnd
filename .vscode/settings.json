@@ -1,0 +1,46 @@
+{
+    "prettier.tabWidth": 4,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        //"php": "F:\\phpstudy_pro\\Extensions\\php\\php7.4.3nts\\php.exe ",
+        //"php": "F:\\phpstudy_pro\\Extensions\\php\\php8.0.2nts\\php.exe ",
+        "php": "F:\\phpstudy_pro\\Extensions\\php\\php8.1.21nts\\php.exe ",
+        //"php": "F:\\phpstudy_pro\\Extensions\\php\\php8.2.8nts\\php.exe ",
+        
+    },
+    "intelephense.environment.phpVersion":"8.1.21",
+    "rest-client.environmentVariables":{
+        "$shared": {},
+        "local":{
+            "adminUrl": "http://127.0.0.3"
+        }
+    },
+
+    // 下面是koroFileHeader插件的注释
+    // 此为头部注释
+    "fileheader.customMade": {
+    },
+    // 此为函数注释
+    "fileheader.cursorMode": {
+        "description":"",
+        "param": "",
+        "return": "",
+    },
+    "fileheader.configObj": {
+        // 默认开启自动添加头部注释，当文件没有设置头部注释时保存会自动添加
+        "autoAdd": false,
+        // 默认开启
+        "autoAlready": true, 
+        // 禁止.json .md文件，自动添加头部注释
+        "prohibitAutoAdd": [
+            "json",
+            "md"
+        ], 
+        // 设置为true开启
+        "wideSame": false, 
+        // 字段长度 默认为13
+        "wideNum": 13 
+    }
+}

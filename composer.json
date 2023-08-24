@@ -1,6 +1,6 @@
 {
-    "name": "fast_back_end/blog",
-    "description": "fastBackEnd project",
+    "name": "handy_back_end/blog",
+    "description": "BEhandy project",
     "type": "1",
     "require": {
         "php": "^7.4"
@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "fastBackEnd\\": "src/fastBackEnd"
+            "BEhandy\\": "src/BEhandy"
         }
     }
 }

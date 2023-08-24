@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'fast_back_end/blog',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'handy_back_end/blog',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '8cba37e32a00ec0ee775ed6ef2c41e1b28a052a0',
         'type' => '1',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'fast_back_end/blog' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'handy_back_end/blog' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '8cba37e32a00ec0ee775ed6ef2c41e1b28a052a0',
             'type' => '1',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
