@@ -1,0 +1,21 @@
+{
+    "name": "fast_back_end/blog",
+    "description": "fastBackEnd project",
+    "type": "1",
+    "require": {
+        "php": "^7.4"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "132677",
+            "email": "937777466@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "fastBackEnd\\": "src/fastBackEnd"
+        }
+    }
+}
