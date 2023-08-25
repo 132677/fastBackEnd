@@ -1,6 +1,4 @@
 <?php
-require __DIR__. './../../../vendor/autoload.php';
-
 use BEhandy\example\admin\AdminLang;
 use BEhandy\example\user\UserLang;
 use BEhandy\example\goods\GoodsLang;

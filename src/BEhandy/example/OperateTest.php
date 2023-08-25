@@ -1,6 +1,4 @@
 <?php
-require __DIR__. './../../../vendor/autoload.php';
-
 use BEhandy\example\user\UserAdd;
 use BEhandy\example\user\UserCheck;
 
