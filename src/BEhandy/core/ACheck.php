@@ -1,7 +1,11 @@
 <?php
 namespace BEhandy\core;
 
-// 验证类
+/**
+ * 验证类
+ * Class ACheck
+ * @package BEhandy\core
+ */
 abstract class ACheck
 {
     public $fieldAttr;
@@ -12,6 +16,11 @@ abstract class ACheck
     {
         $this->whenever_first_error = $whenever_first_error;
     }
+    /**
+     * 添加错误
+     * @param string $field 字段
+     * @param string $msg 消息
+     */
     protected function addError($field, $msg)
     {
 
